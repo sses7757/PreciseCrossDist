@@ -1,8 +1,8 @@
 # PreciseCrossDist
 A high-performance implementation of precise cross distance matrix computation using CUDA
-$$
+```math
 C = \text{dist}_p(A, B), \text{ i.e., } C_{ij} = \|A_i - B_j\|_p
-$$
+```
 
 ## Features
 - Supports batch cross distance matrix computation
